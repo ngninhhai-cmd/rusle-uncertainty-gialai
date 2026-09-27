@@ -1,0 +1,13 @@
+{
+  "title": "RUSLE Uncertainty and Scale Effects in a Tropical Basaltic Highland (Gia Lai, Vietnam)",
+  "description": "Reproducible Python package for RUSLE uncertainty analysis.",
+  "creators": [
+    {
+      "name": "Nguyen, Hai",
+      "affiliation": "Nong Lam University"
+    }
+  ],
+  "license": "MIT",
+  "upload_type": "software",
+  "keywords": ["RUSLE", "soil erosion", "K-factor", "SoilGrids", "uncertainty", "Vietnam"]
+}
