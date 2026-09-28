@@ -3,8 +3,9 @@
   "description": "Reproducible Python package for RUSLE uncertainty analysis.",
   "creators": [
     {
-      "name": "Nguyen, Hai",
+      "name": "Nguyen, Ninh-Hai",
       "affiliation": "Nong Lam University"
+      "orcid": "0009-0009-9275-0653"
     }
   ],
   "license": "MIT",
