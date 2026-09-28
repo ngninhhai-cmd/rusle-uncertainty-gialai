@@ -1,0 +1,27 @@
+project:
+  name: "RUSLE Uncertainty - Gia Lai"
+  version: "1.0.0"
+  random_seed: 42
+
+paths:
+  data_root: "D:/8_PHD. CANDIDATE/PhD_GIS/CON7"
+  output_root: "D:/8_PHD. CANDIDATE/PhD_GIS/CON7/Paper1_Outputs"
+  factors_30m:
+    R:  "2_R_factor_30m.tif"
+    LS: "3_LS_factor_30m.tif"
+    C:  "4_C_factor_30m.tif"
+    P:  "5_P_factor_30m.tif"
+  K_250m: "6_K_factor_250m.tif"
+  SER_250m: "SER_FINAL/SER_250m.tif"
+
+processing:
+  target_crs: "EPSG:3406"
+  primary_resolution: 250
+  resolutions: [30, 90, 120, 150, 200, 250]
+  nodata: -9999
+  ls_cap_percentile: 99
+
+sensitivity:
+  n_samples_sobol: 4096
+  n_samples_correlated_mc: 10000
+  n_samples_correlation: 100000
